@@ -1,0 +1,16 @@
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\accesoADatos\Cliente.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\accesoADatos\ClienteRepository.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\accesoADatos\Pedido.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\accesoADatos\PedidoRepository.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\accesoADatos\TipoCliente.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\apirest\ApirestApplication.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\controlador\ClienteController.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\excepciones\ClienteNoEncontradoException.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\excepciones\PedidoNoEncontradoException.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\logica\ClienteMapper.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\logica\ClienteService.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\logica\PedidoMapper.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\presentacion\ClienteConPedidoRequestDTO.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\presentacion\ClienteRequestDTO.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\presentacion\ClienteResponseDTO.java
+C:\Users\nicol\eclipse-workspace\DAM2-AD-SpringBoot-APIRest\src\main\java\presentacion\PedidoDTO.java
