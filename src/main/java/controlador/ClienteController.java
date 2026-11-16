@@ -1,5 +1,6 @@
 package controlador;
 
+import accesoADatos.Cliente;
 import presentacion.*;
 import logica.ClienteService;
 
@@ -27,10 +28,10 @@ public class ClienteController {
 	 * @return List : lista de clientes
 	 */
 	@GetMapping
-	public List<ClienteResponseDTO> listar(String clienteParametro) {
+	public List<ClienteResponseDTO> listar(Cliente clienteParametro) {
 		for (ClienteResponseDTO  cliente: clienteService.listarTodos()) {
-			if(cliente.getNombre() == clienteParametro) {
-				clienteService.listarTodos()
+			if(cliente.getNombre().equals(clienteParametro.getNombre())) {
+				clienteService.listarUnCliente(clienteParametro);
 				
 			}
 		}

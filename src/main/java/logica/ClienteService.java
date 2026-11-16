@@ -43,17 +43,15 @@ public class ClienteService {
 		return lista;
 	}
 	/**
-	 * Devuelve un cliente
+	 * Le da un cliente al mapper
 	 *
-	 * @return List : lista de clientes
 	 */
-	public List<ClienteResponseDTO> listarUnCliente(Cliente clienteParametro) {
+	public void listarUnCliente(Cliente clienteParametro) {
 		for (Cliente cliente : clienteRepository.findAll()) {
-			if(cliente == clienteParametro) {
-				
+			if (cliente == clienteParametro) {
+				clienteMapper.toDTO(clienteParametro);
 			}
 		}
-		return lista;
 	}
 
 	/**

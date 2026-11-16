@@ -27,8 +27,8 @@ public class ClienteMapper {
 
  
         RolCliente RolCliente = null;
-		cliente2.setRol(RolCliente.ROLE_USER);
-		cliente3.setRol(RolCliente.ROLE_USER);
+		cliente2.setRol(accesoADatos.RolCliente.ROLE_USER);
+		cliente3.setRol(accesoADatos.RolCliente.ROLE_USER);
 		cliente2.setCodigo("CLI-001");
 		cliente2.setCodigo("CLI-003");
 		cliente3 .setCodigo("CLI-002");
